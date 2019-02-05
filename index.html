@@ -28,7 +28,7 @@
                             <th scope="col">Minutes Away</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id='table-body'>
                         <tr>
                             <td>Thomas</td>
                             <td>Austin</td>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="form-group">
                         <label for="firstTrain">First Train Time (HH:mm - military time)</label>
-                        <input type="text" class="form-control" id="firstTrain" placeholder="11:10">
+                        <input type="text" class="form-control" id="time" placeholder="11:10">
                     </div>
                     <div class="form-group">
                         <label for="frequency">Frequency (min)</label>
@@ -68,8 +68,10 @@
         </div>
         
     </div>
-    
 
+
+    
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
