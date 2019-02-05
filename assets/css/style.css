@@ -1,0 +1,14 @@
+/* Title */
+#header {
+    height: 150px;
+}
+
+#title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Schedule Div */
+#schedule-div {
+    margin-bottom: 50px;
+}
