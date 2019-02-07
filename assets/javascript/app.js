@@ -14,6 +14,7 @@ function App () {
 
     // grab firebase database
     var database = firebase.database();
+    
 
     SubmitBtn.on("click", (event) => {
         event.preventDefault();

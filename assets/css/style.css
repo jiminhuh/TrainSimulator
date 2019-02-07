@@ -1,3 +1,12 @@
+/* background */
+
+body {
+    background-image: url(../background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 /* Title */
 #header {
     height: 150px;
@@ -10,5 +19,11 @@
 
 /* Schedule Div */
 #schedule-div {
+    margin-bottom: 50px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 50px;
 }
